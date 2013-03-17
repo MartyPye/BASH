@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4024913C16F63D2E0056E032 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4024913B16F63D2E0056E032 /* Cocoa.framework */; };
+		4024914616F63D2E0056E032 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4024914416F63D2E0056E032 /* InfoPlist.strings */; };
+		4024914816F63D2E0056E032 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4024914716F63D2E0056E032 /* main.m */; };
+		4024914C16F63D2E0056E032 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 4024914A16F63D2E0056E032 /* Credits.rtf */; };
+		4024914F16F63D2E0056E032 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4024914E16F63D2E0056E032 /* AppDelegate.m */; };
+		4024915216F63D2E0056E032 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4024915016F63D2E0056E032 /* MainMenu.xib */; };
+		4024915A16F63D2F0056E032 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4024915916F63D2E0056E032 /* SenTestingKit.framework */; };
+		4024915B16F63D2F0056E032 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4024913B16F63D2E0056E032 /* Cocoa.framework */; };
+		4024916316F63D2F0056E032 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4024916116F63D2F0056E032 /* InfoPlist.strings */; };
+		4024916616F63D2F0056E032 /* BASHTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4024916516F63D2F0056E032 /* BASHTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4024915C16F63D2F0056E032 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4024912E16F63D2E0056E032 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4024913616F63D2E0056E032;
+			remoteInfo = BASH;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4024913716F63D2E0056E032 /* BASH.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BASH.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4024913B16F63D2E0056E032 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		4024913E16F63D2E0056E032 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		4024913F16F63D2E0056E032 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		4024914016F63D2E0056E032 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4024914316F63D2E0056E032 /* BASH-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BASH-Info.plist"; sourceTree = "<group>"; };
+		4024914516F63D2E0056E032 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4024914716F63D2E0056E032 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4024914916F63D2E0056E032 /* BASH-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BASH-Prefix.pch"; sourceTree = "<group>"; };
+		4024914B16F63D2E0056E032 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		4024914D16F63D2E0056E032 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4024914E16F63D2E0056E032 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4024915116F63D2E0056E032 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		4024915816F63D2E0056E032 /* BASHTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BASHTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4024915916F63D2E0056E032 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		4024916016F63D2F0056E032 /* BASHTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BASHTests-Info.plist"; sourceTree = "<group>"; };
+		4024916216F63D2F0056E032 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4024916416F63D2F0056E032 /* BASHTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BASHTests.h; sourceTree = "<group>"; };
+		4024916516F63D2F0056E032 /* BASHTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BASHTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4024913416F63D2E0056E032 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4024913C16F63D2E0056E032 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4024915416F63D2E0056E032 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4024915A16F63D2F0056E032 /* SenTestingKit.framework in Frameworks */,
+				4024915B16F63D2F0056E032 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4024912C16F63D2E0056E032 = {
+			isa = PBXGroup;
+			children = (
+				4024914116F63D2E0056E032 /* BASH */,
+				4024915E16F63D2F0056E032 /* BASHTests */,
+				4024913A16F63D2E0056E032 /* Frameworks */,
+				4024913816F63D2E0056E032 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4024913816F63D2E0056E032 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4024913716F63D2E0056E032 /* BASH.app */,
+				4024915816F63D2E0056E032 /* BASHTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4024913A16F63D2E0056E032 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4024913B16F63D2E0056E032 /* Cocoa.framework */,
+				4024915916F63D2E0056E032 /* SenTestingKit.framework */,
+				4024913D16F63D2E0056E032 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4024913D16F63D2E0056E032 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4024913E16F63D2E0056E032 /* AppKit.framework */,
+				4024913F16F63D2E0056E032 /* CoreData.framework */,
+				4024914016F63D2E0056E032 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		4024914116F63D2E0056E032 /* BASH */ = {
+			isa = PBXGroup;
+			children = (
+				4024914D16F63D2E0056E032 /* AppDelegate.h */,
+				4024914E16F63D2E0056E032 /* AppDelegate.m */,
+				4024915016F63D2E0056E032 /* MainMenu.xib */,
+				4024914216F63D2E0056E032 /* Supporting Files */,
+			);
+			path = BASH;
+			sourceTree = "<group>";
+		};
+		4024914216F63D2E0056E032 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4024914316F63D2E0056E032 /* BASH-Info.plist */,
+				4024914416F63D2E0056E032 /* InfoPlist.strings */,
+				4024914716F63D2E0056E032 /* main.m */,
+				4024914916F63D2E0056E032 /* BASH-Prefix.pch */,
+				4024914A16F63D2E0056E032 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4024915E16F63D2F0056E032 /* BASHTests */ = {
+			isa = PBXGroup;
+			children = (
+				4024916416F63D2F0056E032 /* BASHTests.h */,
+				4024916516F63D2F0056E032 /* BASHTests.m */,
+				4024915F16F63D2F0056E032 /* Supporting Files */,
+			);
+			path = BASHTests;
+			sourceTree = "<group>";
+		};
+		4024915F16F63D2F0056E032 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4024916016F63D2F0056E032 /* BASHTests-Info.plist */,
+				4024916116F63D2F0056E032 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4024913616F63D2E0056E032 /* BASH */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4024916916F63D2F0056E032 /* Build configuration list for PBXNativeTarget "BASH" */;
+			buildPhases = (
+				4024913316F63D2E0056E032 /* Sources */,
+				4024913416F63D2E0056E032 /* Frameworks */,
+				4024913516F63D2E0056E032 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BASH;
+			productName = BASH;
+			productReference = 4024913716F63D2E0056E032 /* BASH.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4024915716F63D2E0056E032 /* BASHTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4024916C16F63D2F0056E032 /* Build configuration list for PBXNativeTarget "BASHTests" */;
+			buildPhases = (
+				4024915316F63D2E0056E032 /* Sources */,
+				4024915416F63D2E0056E032 /* Frameworks */,
+				4024915516F63D2E0056E032 /* Resources */,
+				4024915616F63D2E0056E032 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4024915D16F63D2F0056E032 /* PBXTargetDependency */,
+			);
+			name = BASHTests;
+			productName = BASHTests;
+			productReference = 4024915816F63D2E0056E032 /* BASHTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4024912E16F63D2E0056E032 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = Marty;
+			};
+			buildConfigurationList = 4024913116F63D2E0056E032 /* Build configuration list for PBXProject "BASH" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4024912C16F63D2E0056E032;
+			productRefGroup = 4024913816F63D2E0056E032 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4024913616F63D2E0056E032 /* BASH */,
+				4024915716F63D2E0056E032 /* BASHTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4024913516F63D2E0056E032 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4024914616F63D2E0056E032 /* InfoPlist.strings in Resources */,
+				4024914C16F63D2E0056E032 /* Credits.rtf in Resources */,
+				4024915216F63D2E0056E032 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4024915516F63D2E0056E032 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4024916316F63D2F0056E032 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4024915616F63D2E0056E032 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4024913316F63D2E0056E032 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4024914816F63D2E0056E032 /* main.m in Sources */,
+				4024914F16F63D2E0056E032 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4024915316F63D2E0056E032 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4024916616F63D2F0056E032 /* BASHTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4024915D16F63D2F0056E032 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4024913616F63D2E0056E032 /* BASH */;
+			targetProxy = 4024915C16F63D2F0056E032 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4024914416F63D2E0056E032 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4024914516F63D2E0056E032 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4024914A16F63D2E0056E032 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4024914B16F63D2E0056E032 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		4024915016F63D2E0056E032 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4024915116F63D2E0056E032 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		4024916116F63D2F0056E032 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4024916216F63D2F0056E032 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4024916716F63D2F0056E032 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4024916816F63D2F0056E032 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4024916A16F63D2F0056E032 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BASH/BASH-Prefix.pch";
+				INFOPLIST_FILE = "BASH/BASH-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4024916B16F63D2F0056E032 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BASH/BASH-Prefix.pch";
+				INFOPLIST_FILE = "BASH/BASH-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		4024916D16F63D2F0056E032 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BASH.app/Contents/MacOS/BASH";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BASH/BASH-Prefix.pch";
+				INFOPLIST_FILE = "BASHTests/BASHTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		4024916E16F63D2F0056E032 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BASH.app/Contents/MacOS/BASH";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BASH/BASH-Prefix.pch";
+				INFOPLIST_FILE = "BASHTests/BASHTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4024913116F63D2E0056E032 /* Build configuration list for PBXProject "BASH" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4024916716F63D2F0056E032 /* Debug */,
+				4024916816F63D2F0056E032 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4024916916F63D2F0056E032 /* Build configuration list for PBXNativeTarget "BASH" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4024916A16F63D2F0056E032 /* Debug */,
+				4024916B16F63D2F0056E032 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4024916C16F63D2F0056E032 /* Build configuration list for PBXNativeTarget "BASHTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4024916D16F63D2F0056E032 /* Debug */,
+				4024916E16F63D2F0056E032 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4024912E16F63D2E0056E032 /* Project object */;
+}
